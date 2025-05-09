@@ -1,0 +1,69 @@
+/****WIDTH****/
+/****COLORS*****/
+/*****FONT SIZE*****/
+/****FONT WEIGHT****/
+body {
+  font-family: Outfit;
+}
+
+.heading-primary {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+.u-margin-bottom-sm {
+  margin-bottom: 2.4rem;
+}
+
+.u-margin-bottom-md {
+  margin-bottom: 3.2rem;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  max-width: 114rem;
+  margin: 10% auto;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  margin: 0 auto;
+  width: 28.8rem;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(51, 51, 51, 0.2);
+  /*
+  top: 50%;
+  left: 50%;
+  */
+  text-align: center;
+}
+.card__figure {
+  width: 100%;
+  overflow: hidden;
+}
+.card__figure-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card__text {
+  color: hsl(212, 45%, 89%);
+  font-size: 1.5rem;
+  font-weight: 400;
+}

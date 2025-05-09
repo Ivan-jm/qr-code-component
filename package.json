@@ -1,0 +1,23 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "description": "QR component for the Frontend monitor QR component challenge",
+  "homepage": "https://github.com/Ivan-jm/qr-code-component#readme",
+  "bugs": {
+    "url": "https://github.com/Ivan-jm/qr-code-component/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivan-jm/qr-code-component.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass -w --no-source-map sass/main.scss css/style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.87.0"
+  }
+}

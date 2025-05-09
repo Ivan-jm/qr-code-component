@@ -1,0 +1,10 @@
+@use "../abstract/variables" as variables;
+
+body {
+    font-family: Outfit;
+}
+
+.heading-primary {
+    color: variables.$color-slate-dark;
+    font-weight: 700;
+}

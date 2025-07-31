@@ -15,9 +15,12 @@ html {
 body {
     box-sizing: border-box;
     background-color: variables.$color-slate-light;
+    height: 100vh;
 }
 
 .container {
-    max-width: 114rem;
-    margin: 10% auto;
+    max-width: 100vh;
+    height: 100%;
+    margin: 0 auto;
+    place-content: center;
 }

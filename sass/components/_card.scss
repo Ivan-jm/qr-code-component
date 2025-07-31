@@ -1,6 +1,5 @@
 @use "../abstract/variables" as variables;
 
-
 .card {
     background-color: variables.$color-white;
     margin: 0 auto;
@@ -9,10 +8,8 @@
     padding: 2rem;
     box-shadow: 0 0.5rem 1rem rgba(variables.$color-black, 0.2);
 
-    /*
-    top: 50%;
     left: 50%;
-    */
+
     text-align: center;
 
     &__figure {

@@ -7,6 +7,7 @@ body {
 }
 
 .heading-primary {
+  font-size: 2rem;
   color: hsl(218, 44%, 22%);
   font-weight: 700;
 }
@@ -47,10 +48,11 @@ body {
 .card {
   background-color: hsl(0, 0%, 100%);
   margin: 0 auto;
-  width: 28.8rem;
+  width: 30rem;
   border-radius: 16px;
-  padding: 2rem;
+  padding: 1.5rem;
   box-shadow: 0 0.5rem 1rem rgba(51, 51, 51, 0.2);
+  transition: all 0.2s;
   left: 50%;
   text-align: center;
 }
@@ -63,7 +65,11 @@ body {
   border-radius: 10px;
 }
 .card__text {
-  color: hsl(212, 45%, 89%);
-  font-size: 1.5rem;
+  color: hsl(216, 15%, 48%);
+  font-size: 1.6rem;
   font-weight: 400;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 1.5rem rgba(51, 51, 51, 0.12);
 }

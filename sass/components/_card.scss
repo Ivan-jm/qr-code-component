@@ -3,11 +3,11 @@
 .card {
     background-color: variables.$color-white;
     margin: 0 auto;
-    width: 28.8rem;
+    width: 30rem;
     border-radius: 16px;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 0 0.5rem 1rem rgba(variables.$color-black, 0.2);
-
+    transition: all 0.2s;
     left: 50%;
 
     text-align: center;
@@ -23,8 +23,13 @@
     }
 
     &__text {
-        color: variables.$color-slate-light;
-        font-size: 1.5rem;
+        color: variables.$color-slate-medium;
+        font-size: 1.6rem;
         font-weight: variables.$weight-light;
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 1rem 1.5rem rgba(variables.$color-black, 0.12);
     }
 }
